@@ -1,0 +1,15 @@
+C:\Users\artyp\source\repos\SnippetCreator\bin\Debug\net6.0\SnippetCreator.exe
+C:\Users\artyp\source\repos\SnippetCreator\bin\Debug\net6.0\SnippetCreator.deps.json
+C:\Users\artyp\source\repos\SnippetCreator\bin\Debug\net6.0\SnippetCreator.runtimeconfig.json
+C:\Users\artyp\source\repos\SnippetCreator\bin\Debug\net6.0\SnippetCreator.dll
+C:\Users\artyp\source\repos\SnippetCreator\bin\Debug\net6.0\SnippetCreator.pdb
+C:\Users\artyp\source\repos\SnippetCreator\obj\Debug\net6.0\SnippetCreator.csproj.AssemblyReference.cache
+C:\Users\artyp\source\repos\SnippetCreator\obj\Debug\net6.0\SnippetCreator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\artyp\source\repos\SnippetCreator\obj\Debug\net6.0\SnippetCreator.AssemblyInfoInputs.cache
+C:\Users\artyp\source\repos\SnippetCreator\obj\Debug\net6.0\SnippetCreator.AssemblyInfo.cs
+C:\Users\artyp\source\repos\SnippetCreator\obj\Debug\net6.0\SnippetCreator.csproj.CoreCompileInputs.cache
+C:\Users\artyp\source\repos\SnippetCreator\obj\Debug\net6.0\SnippetCreator.dll
+C:\Users\artyp\source\repos\SnippetCreator\obj\Debug\net6.0\refint\SnippetCreator.dll
+C:\Users\artyp\source\repos\SnippetCreator\obj\Debug\net6.0\SnippetCreator.pdb
+C:\Users\artyp\source\repos\SnippetCreator\obj\Debug\net6.0\SnippetCreator.genruntimeconfig.cache
+C:\Users\artyp\source\repos\SnippetCreator\obj\Debug\net6.0\ref\SnippetCreator.dll
