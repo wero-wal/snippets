@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Class File</Title>
+            <Author>W. Walczak</Author>
+            <Description>Create a new class in a blank class file.</Description>
+            <Shortcut>classfull</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="Language">
+                <![CDATA[using System;
+				namespace $rootnamespace$
+				{
+					///<summary>
+					///<para></para>
+					///</summary>
+					$accessibilitylevel$ class $classname$
+					{
+						// -----Enums-----
+						// -----Properties-----
+						// -----Fields-----
+						// -----Constructors-----
+						// -----Methods-----
+					}
+				}]]>
+            </Code>
+			<Declarations>
+				<Literal>
+					<ID>namespace</ID>
+					<Default>MyNamespace</Default>
+					<ToolTip>namespace</ToolTip>
+				</Literal>
+				<Literal>
+					<ID>accessibilitylevel</ID>
+					<Default>internal</Default>
+					<ToolTip>accessibility level</ToolTip>
+				</Literal>
+				<Literal>
+					<ID>classname</ID>
+					<Default>Program</Default>
+					<ToolTip>name of class</ToolTip>
+				</Literal>
+			</Declarations>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
