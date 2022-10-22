@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Getter</Title>
+            <Author>W. Walczak</Author>
+            <Description>Create a field and its getter property.</Description>
+            <Shortcut>field</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="CSharp">
+                <![CDATA[public $datatype$ $propertyname$ => $fieldname$;
+				private $datatype$ $fieldname$ = $defaultvalue$;]]>
+            </Code>
+			<Declarations>
+				<Literal>
+					<ID>datatype</ID>
+					<Default>int</Default>
+					<ToolTip>data type</ToolTip>
+				</Literal>
+				<Literal>
+					<ID>propertyname</ID>
+					<Default>MyProperty</Default>
+					<ToolTip>name of the property</ToolTip>
+				</Literal>
+				<Literal>
+					<ID>fieldname</ID>
+					<Default>_myField</Default>
+					<ToolTip>name of the field</ToolTip>
+				</Literal>
+				<Literal>
+					<ID>defaultvalue</ID>
+					<Default>0</Default>
+					<ToolTip>default value of the field</ToolTip>
+				</Literal>
+			</Declarations>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
