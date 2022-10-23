@@ -6,6 +6,10 @@ namespace SnippetCreator
 {
 	internal static class File
 	{
+		public const string Defaults = "defaults.txt";
+		public const string Forbidden = "forbidden-values.txt";
+		public const string Languages = "languages.txt";
+		
 		public static List<string> Load(string filename)
 		{
 			List<string> fileContents = new List<string>{};
