@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GY74z9xq/E08dwoyL1Yn5lDPYkRDLkscJqzKb+t2qMiDwk2rqdHaZV5GBYN0rbqGB/ndVX9ZVdbrSSJ49SinXA==",
+  "dgSpecHash": "zXR/kYn3nU0NhEaHCuiE6HbKFBIPlu9qnYV/WxmIrGT+MlZcOofU/zXZNInPoh4T5en+OccQY29L4EyrxJpD4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\artyp\\source\\repos\\SnippetCreator\\SnippetCreator.csproj",
+  "projectFilePath": "C:\\Users\\artyp\\source\\repos\\snippet-repo\\SnippetCreator\\SnippetCreator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

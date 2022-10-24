@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\artyp\\source\\repos\\SnippetCreator\\SnippetCreator.csproj": {}
+    "C:\\Users\\artyp\\source\\repos\\snippet-repo\\SnippetCreator\\SnippetCreator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\artyp\\source\\repos\\SnippetCreator\\SnippetCreator.csproj": {
+    "C:\\Users\\artyp\\source\\repos\\snippet-repo\\SnippetCreator\\SnippetCreator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\artyp\\source\\repos\\SnippetCreator\\SnippetCreator.csproj",
+        "projectUniqueName": "C:\\Users\\artyp\\source\\repos\\snippet-repo\\SnippetCreator\\SnippetCreator.csproj",
         "projectName": "SnippetCreator",
-        "projectPath": "C:\\Users\\artyp\\source\\repos\\SnippetCreator\\SnippetCreator.csproj",
+        "projectPath": "C:\\Users\\artyp\\source\\repos\\snippet-repo\\SnippetCreator\\SnippetCreator.csproj",
         "packagesPath": "C:\\Users\\artyp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\artyp\\source\\repos\\SnippetCreator\\obj\\",
+        "outputPath": "C:\\Users\\artyp\\source\\repos\\snippet-repo\\SnippetCreator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
