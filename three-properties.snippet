@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Three Properties</Title>
+			<Author>W. Walczak</Author>
+			<Description>Creates three fields with getter properties</Description>
+			<Shortcut>propx3</Shortcut>
+		</Header>
+		<Snippet>
+			<Code Language="CSharp">
+				<![CDATA[public $dataType1$ $property1$ => $field1$;
+				public $dataType2$ $property2$ => $field2$;
+				public $dataType3$ $property3$ => $field3$;
+				
+				$accessor$ $dataType1$ $field1$;
+				$accessor$ $dataType2$ $field2$;
+				$accessor$ $dataType3$ $field3$;]]>
+			</Code>
+			<Declarations>
+				<Literal>
+					<ID>dataType1</ID>
+					<Default>string</Default>
+					<ToolTip>data type</ToolTip>
+				</Literal>
+				<Literal>
+					<ID>dataType2</ID>
+					<Default>int</Default>
+					<ToolTip>data type</ToolTip>
+				</Literal>
+				<Literal>
+					<ID>dataType3</ID>
+					<Default>int</Default>
+					<ToolTip>data type</ToolTip>
+				</Literal>
+				<Literal>
+					<ID>property1</ID>
+					<Default>Name</Default>
+					<ToolTip>name of the property</ToolTip>
+				</Literal>
+				<Literal>
+					<ID>property2</ID>
+					<Default>ID</Default>
+					<ToolTip>name of the property</ToolTip>
+				</Literal>
+				<Literal>
+					<ID>property3</ID>
+					<Default>Value</Default>
+					<ToolTip>name of the property</ToolTip>
+				</Literal>
+				<Literal>
+					<ID>field1</ID>
+					<Default>_name</Default>
+					<ToolTip>name of the field</ToolTip>
+				</Literal>
+				<Literal>
+					<ID>field2</ID>
+					<Default>_id</Default>
+					<ToolTip>name of the field</ToolTip>
+				</Literal>
+				<Literal>
+					<ID>field3</ID>
+					<Default>_value</Default>
+					<ToolTip>name of the field</ToolTip>
+				</Literal>
+				<Literal>
+					<ID>accessor</ID>
+					<Default>private</Default>
+					<ToolTip>private or protected</ToolTip>
+				</Literal>
+			</Declarations>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
