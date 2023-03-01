@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Title</Title>
+            <Author>W. Walczak</Author>
+            <Description>Desc</Description>
+            <Shortcut>shortcut</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="CSharp">
+                <![CDATA[using System;
+                namespace $defaultnamespace$ {
+                    public class $safeitemname$ {
+                        
+                        // ----- Enums -----
+                        // ----- Properties -----
+                        public $datatype1$ $propertyname1$ => _$fieldname1$;
+                        public $datatype2$ $propertyname2$ => _$fieldname2$;
+
+
+                        // ----- Fields -----
+                        private $datatype1$ _$fieldname1$;
+                        private $datatype2$ _$fieldname2$;
+
+
+                        // ----- Constructors -----
+                        public $safeitemname$ ($datatype1$ $fieldname1$, $datatype2$ $fieldname2$) {
+                            _$fieldname1$ = $fieldname1$;
+                            _$fieldname2$ = $fieldname2$;
+                        }
+
+
+                        // ----- Methods -----
+                    }
+                }]]>
+            </Code>
+			<Declarations>
+				<Literal>
+					<ID>datatype1</ID>
+					<Default>int</Default>
+					<ToolTip></ToolTip>
+				<Literal>
+					<ID>fieldname1</ID>
+					<Default>field1</Default>
+					<ToolTip></ToolTip>
+				</Literal>
+				<Literal>
+					<ID>propertyname1</ID>
+					<Default>Field1</Default>
+					<ToolTip></ToolTip>
+				</Literal>
+				<Literal>
+					<ID>datatype2</ID>
+					<Default>int</Default>
+					<ToolTip></ToolTip>
+				<Literal>
+					<ID>fieldname2</ID>
+					<Default>field2</Default>
+					<ToolTip></ToolTip>
+				</Literal>
+				<Literal>
+					<ID>propertyname2</ID>
+					<Default>Field2</Default>
+					<ToolTip></ToolTip>
+				</Literal>
+			</Declarations>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
