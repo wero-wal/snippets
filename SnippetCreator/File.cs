@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace SnippetCreator;
 public static class File {
 	
-	public const string FilePathAdjustor = "../../../"
+	public const string FilePathAdjustor = "../../../";
 	public const string Defaults = FilePathAdjustor + "defaults.txt";
 	public const string Forbidden = FilePathAdjustor + "forbidden-values.txt";
 	public const string Languages = FilePathAdjustor + "languages.txt";
